@@ -1,0 +1,75 @@
+        .t_y{
+            position: relative;
+        }
+    
+        .vids_grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        .box{
+            vertical-align: top;
+            margin-bottom: 20px;
+        }
+        .thumb1{
+            width: 100%;
+        }
+        
+        .vid_dur{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 3px;
+            border-radius: 5px;
+            padding-top: 2px;
+            background-color: black;
+            color: white;
+            z-index: 1;
+        }
+        .vid_info_grid{
+            padding-top: 10px;
+            display: grid;
+            grid-template-columns: 40px 1fr;
+        }
+        .channel_logo1{
+            width: 100%;
+            border-radius: 100%;
+            
+        }
+        .logo1{
+            border-radius: 100px;
+            width: 100%;
+                    
+        }
+        .vid_info1{
+            padding-left: 20px;
+                    
+        }
+        .title_1{
+            display: block;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: #f1f1f1;
+            line-height: 20px;
+                        
+        }
+        .channel_name1{
+            display: block;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgb(170, 170, 170);
+                        
+        }
+        .vid_stats1{
+            display: block;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: #aaa;
+            
+        }
